@@ -1,0 +1,10 @@
+.right img{
+    width: 250px;
+}
+p.title-name{font-size: 20px; font-weight: 700; line-height: 1;}
+
+@media screen and (min-width:991px) {
+    p.title-name{font-size: 24px;}
+
+    
+}
