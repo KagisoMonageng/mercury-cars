@@ -2,7 +2,14 @@
     width: 250px;
 }
 p.title-name{font-size: 20px; font-weight: 700; line-height: 1;}
-
+p.price-tag{font-size: 16px; font-weight: 200; line-height: 1;}
+.grid .bg-neutral{
+    transition: all 1s ease-in-out;
+    &:hover{
+        transform: scale(0.95);
+        @apply bg-primary;
+    }
+}
 @media screen and (min-width:991px) {
     p.title-name{font-size: 24px;}
 
